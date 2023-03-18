@@ -14,6 +14,7 @@ class Solution {
 				maxHeap.add(-data); // 최대힙은 부호를 바꿔서 넣기
 			}
 			// 최대값 삭제
+			
 			else if (!minHeap.isEmpty() && operations[i].equals("D 1")) {
 				// 서로 부호가 반대이므로 poll할 때 부호 전환
 				minHeap.remove(-maxHeap.poll());
