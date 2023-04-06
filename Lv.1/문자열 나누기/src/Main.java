@@ -5,8 +5,8 @@ public class Main {
 
     public static int solution(String s) {
         int answer = 0;
-        char init = s.charAt(0);
         int count = 0;
+        char init = s.charAt(0);
 
         for (char c : s.toCharArray()) {
             // count가 0일 땐 처음 시작했거나, 두 횟수가 같아서 다음 시작 지점을 찾는 것이다.
@@ -32,3 +32,4 @@ public class Main {
         return answer;
     }
 }
+// "ba / na / nna"
