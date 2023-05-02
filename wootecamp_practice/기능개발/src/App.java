@@ -35,7 +35,7 @@ public class App {
                 maxNum = completedDay[i];
             }
 
-            // 만약 현재 자신이 마지막 작업이라면 지금까지 배포가능한 모든 수를 list에 넣는다.
+            // 만약 현재 자신이 마지막 작업이라면 지금까지 배포가능한 모든 수를 list에
             if (i == completedDay.length - 1) {
                 list.add(distributeCnt);
             }
